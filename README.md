@@ -4,15 +4,15 @@
 
 Sitio oficial con **dos versiones del portafolio** que conviven en el mismo repositorio:
 
-1. **Data Science Portfolio** (`index.html`) - Versión original
-2. **Game Development Portfolio** (`gamedev.html`) - Versión con diseño moderno
+1. **Game Development Portfolio** (`index.html`) - **Página principal** 🎮
+2. **Data Science Portfolio** (`datascience.html`) - Versión alternativa 📊
 
 ## Estructura de Archivos
 
 ```
 AngelMV97.github.io/
-├── index.html                    # Portafolio Data Science (original)
-├── gamedev.html                  # Portafolio Game Development
+├── index.html                    # Portafolio Game Development (PRINCIPAL)
+├── datascience.html              # Portafolio Data Science (alternativo)
 ├── css/
 │   └── style.css                # Estilos compartidos + componentes personalizados
 ├── js/
@@ -38,8 +38,8 @@ AngelMV97.github.io/
 
 Ambas versiones incluyen un **botón circular compacto** (42px) en la esquina superior derecha para cambiar entre portafolios:
 
-- **En index.html**: Ícono de caja 📦 → "Switch to Data Science Portfolio"
-- **En gamedev.html**: Ícono de control de juego 🎮 → "Switch to Game Dev Portfolio"
+- **En index.html** (Game Dev): Ícono de caja 📦 → Redirige a `datascience.html`
+- **En datascience.html** (Data Science): Ícono de control 🎮 → Redirige a `index.html`
 
 ### Características del Toggle
 
@@ -51,12 +51,12 @@ Ambas versiones incluyen un **botón circular compacto** (42px) en la esquina su
 
 ## URLs de Acceso
 
-- **Data Science**: https://angelmv97.github.io/ (o index.html)
-- **Game Development**: https://angelmv97.github.io/gamedev.html
+- **🎮 Game Development** (Principal): https://angelmv97.github.io/
+- **📊 Data Science** (Alternativo): https://angelmv97.github.io/datascience.html
 
 ## Características de Diseño
 
-### Portafolio de Game Development (gamedev.html)
+### Portafolio de Game Development (index.html - Principal)
 
 #### 🎨 Hero Section
 - **Fondo animado**: GIF de videojuego (hero-bg.gif)
@@ -238,8 +238,8 @@ start gamedev.html
 
 ## Contacto y Links
 
-- **Portfolio Data Science**: https://angelmv97.github.io/
-- **Portfolio Game Dev**: https://angelmv97.github.io/gamedev.html
+- **Portfolio Game Dev**: https://angelmv97.github.io/ (Principal)
+- **Portfolio Data Science**: https://angelmv97.github.io/datascience.html
 - **GitHub**: https://github.com/AngelMV97
 - **LinkedIn**: https://www.linkedin.com/in/luangmv-developer/
 - **Itch.io**: https://angelmv97.itch.io/
