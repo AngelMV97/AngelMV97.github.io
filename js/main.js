@@ -247,6 +247,32 @@ var owlCarouselPlugin = function() {
 	   });
 	}
 
+	// Portfolio Carousel
+	if ( $('.portfolio-carousel').length ) {
+		var portfolioCarousel = $('.portfolio-carousel').owlCarousel({
+			center: false,
+			items: 1,
+			loop: true,
+			stagePadding: 0,
+			margin: 0,
+			smartSpeed: 800,
+			autoplay: false,
+			dots: true,
+			nav: false,
+			animateOut: 'fadeOut',
+			animateIn: 'fadeIn'
+		});
+
+		// Custom navigation
+		$('.portfolio-prev').click(function() {
+			portfolioCarousel.trigger('prev.owl.carousel');
+		});
+
+		$('.portfolio-next').click(function() {
+			portfolioCarousel.trigger('next.owl.carousel');
+		});
+	}
+
 };
 
 var owlSingleSlider = function () {
